@@ -1,22 +1,28 @@
 {
-  "name": "mean-app",
+  "name": "derekdyerdev.com",
   "version": "1.0.0",
-  "description": "MEAN stack application",
+  "description": "Derek Dyer Dev Site",
   "main": "app.js",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirkdir/DerekDevSite.git"
   },
   "keywords": [
-    "mean"
+    "MEAN",
+    "Stack",
+    "Development"
   ],
-  "author": "Derek Dyer",
+  "author": "Derek DYer",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.15.2",
-    "DerekDevSite": "https://github.com/dirkdir/DerekDevSite.git"
+  "bugs": {
+    "url": "https://github.com/dirkdir/DerekDevSite/issues"
   },
-  "devDependencies": {
-    "mocha": "^3.2.0"
-  }
+  "homepage": "https://github.com/dirkdir/DerekDevSite#readme"
 }

@@ -8,7 +8,7 @@ var path = require('path');
 
 //set localhost port to work visually in web browser
 
-app.set('port',3000);
+app.set('port',5000);
 
 //this is our controller
 
@@ -16,7 +16,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //both .get functions below are for debugging
 
-/*app.get('/json', function(req, res) {
+app.get('/json', function(req, res) {
     console.log("GET the json");
     res
         .status(200)
@@ -30,7 +30,6 @@ app.get('/file', function(req, res) {
         .sendFile(path.join(__dirname, 'app.js'));
 });
 
-*/
 
 //creates listener for server requests
 

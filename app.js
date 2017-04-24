@@ -8,7 +8,7 @@ var path = require('path');
 
 //set localhost port to work visually in web browser
 
-.listen(process.env.PORT || 5000)
+app.set(\'port\', process.env.PORT || 3000);
 
 //this is our controller
 
@@ -33,7 +33,7 @@ app.get('/file', function(req, res) {
 
 //creates listener for server requests
 
-var server = app.listen(app.get('port'), function() {
+var server = app..listen(process.env.PORT || 5000), function() {
     var port = server.address().port;
     console.log("Express is working on port " + port);
 });

@@ -8,7 +8,7 @@ var path = require('path');
 
 //set localhost port to work visually in web browser
 
-app.set('port',5000);
+.listen(process.env.PORT || 5000)
 
 //this is our controller
 
